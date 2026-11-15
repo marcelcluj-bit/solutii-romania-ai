@@ -41,3 +41,16 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+solutii-romania-ai/
+├── .github/
+│   └── workflows/
+│       └── daily_update.yml      # Runs the Python pipeline automatically every day
+├── data/
+│   └── solutions.json            # Database of daily analyzed problems & AI solutions
+├── docs/
+│   └── index.html                # Auto-generated public web portal (GitHub Pages)
+├── main.py                       # Core Python script (Scraper + Gemini AI + Site Builder)
+├── requirements.txt              # Python dependencies
+├── LICENSE                       # MIT License
+└── README.md                     # English project documentation
